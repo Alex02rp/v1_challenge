@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptar/Desencriptar Texto</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Encriptar/Desencriptar </div>
+        <div class="input-container">
+            <textarea id="input-text" placeholder="Ingrese el texto aquí"></textarea>
+            <textarea id="output-text" readonly placeholder="Resultado..."></textarea>
+        </div>
+        <div class="info-text">⚪ Solo letras minúsculas y sin acentos</div>
+        <div class="button-container">
+            <button onclick="encriptar()">Encriptar!</button>
+            <button onclick="desencriptar()">Desencriptar!</button>
+        </div>
+        <button class="button-copy" onclick="copiarTexto()">Copiar</button>
+    </div>
+    <script src="encriptado.js"></script>
+</body>
+</html>
